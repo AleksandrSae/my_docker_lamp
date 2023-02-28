@@ -31,7 +31,7 @@
                                 <li>PHP <?= phpversion(); ?></li>
                                 <li>
                                     <?php
-                                    $link = mysqli_connect("db_server", "root", $_ENV['MYSQL_ROOT_PASS'], null);
+                                    $link = mysqli_connect("lamp_db_server", "root", $_ENV['MYSQL_ROOT_PASS'], null);
 
 /* check connection */
                                     if (mysqli_connect_errno()) {
